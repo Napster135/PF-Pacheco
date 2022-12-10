@@ -118,9 +118,7 @@ body {
 .hover:hover::after {
   border-bottom-color: var(--clr-green);
   border-left-color: var(--clr-green);
-  transition: border-color 0s ease-out 0.5s, 
- width 0.25s ease-out 0.5s,
- height 0.25s ease-out 0.75s; }
+  transition: border-color 0s ease-out 0.5s,  width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s; }
 
 .menu-js {
   display: none;
@@ -308,12 +306,10 @@ body {
     flex-direction: column; } }
 
 .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1rem;
-      padding: 2rem;
-}
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem; }
 
 .product-item {
   margin: 1rem;
